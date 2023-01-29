@@ -10,7 +10,7 @@ export default function Clients() {
   if (error) return <p>Something Went Wrong</p>
 
   return <>{!loading && !error && (
-    <table className='table table-hover mt-3'>
+    <table className='table table-hover'>
       <thead>
         <tr>
           <th>Name</th>
